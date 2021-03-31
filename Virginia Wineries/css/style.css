@@ -1,0 +1,73 @@
+body {
+  padding: 0;
+  overflow: hidden;
+  font-family: colfax, helvetica, arial, sans-serif;
+}
+
+p.main {
+font-size: 24px;
+}
+
+.map {
+  position: absolute;
+  right: 0px;
+  left: 400px;
+  height: 100%;
+  top: 0;
+}
+
+.sidebar {
+  position: absolute;
+  left: 0px;
+  width: 400px;
+  top: 0;
+  bottom: 0;
+  overflow-y: auto;
+  padding: 20px;
+  font-size: 16px;
+}
+
+.legend {
+position: absolute;
+background-color: #fff;
+bottom: 250px; 
+left: 20px; 
+z-index: 2000;
+}
+
+.legendTitle { 
+font-size: medium; 
+font-weight: bold; 
+}
+
+
+.prev { 
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    font-size: 16px;
+    bottom: 100px; 
+  }
+
+  .next { 
+    background-color: black; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    bottom: 10px; 
+  }
+
+  .results { 
+    padding: 15px 26 px; 
+    text-align: center; 
+    position: absolute; 
+    resize: vertical; 
+    display: inline-block;
+  }
+
